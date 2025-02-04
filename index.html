@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> VeVisible</title>
+  <title>VeVisible</title>
 
   <!-- 
     - favicon
@@ -25,6 +25,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body id="top">
@@ -36,57 +45,26 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo"> VeVisible</a>
+      <a href="#" class="logo">Ve<span>Visible</span></a>
 
       <nav class="navbar container" data-navbar>
         <ul class="navbar-list">
 
-          <span class="e-n-menu-title-text"></span>
-          
           <li>
-            <a href="#" class="navbar-link" data-nav-link></a>
-            <div class="dropdown">
-              <button class="dropbtn">Us</button>
-              <div class="dropdown-content">
-                <a href="#">Past Work</a>
-                <a href="#">Case Studies</a>
-                <a href="#">Vision</a>
-                <a href="#">Blog</a>
-            </div>
+            <a href="#home" class="navbar-link" data-nav-link>Us</a>
           </li>
 
           <li>
-            
-            <a href="#" class="navbar-link" data-nav-link></a>
-            <div class="dropdown">
-              <button class="dropbtn">Tools</button>
-              <div class="dropdown-content">
-                <a href="#">Engagement Rate Calculator</a>
-                <a href="#">Influencer Price Calculator</a>
-                
-              </div>
-            </div>
+            <a href="#service" class="navbar-link" data-nav-link>Pricing</a>
           </li>
 
+         
+
           <li>
-            
-            <a href="#" class="navbar-link" data-nav-link></a>
-            <div class="dropdown">
-              <button class="dropbtn">Pricing</button>
-              <div class="dropdown-content">
-                <a href="#">Influencer Campaign Management</a>
-                <a href="#">Packages</a>
-                <a href="#">Services</a>
-                <a href="#">Get a Quote</a>
-              </div>
-            </div>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
           </li>
 
           
-
-          <li>
-            <a href="#" class="btn btn-primary">Contact Now </a>
-          </li>
 
         </ul>
       </nav>
@@ -111,462 +89,135 @@
       -->
 
       <section class="section hero" id="home" aria-label="hero">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <p class="hero-subtitle">Wellcome to VeVisible </p>
-
-            <h1 class="h1 hero-title">Making Brands Visible
-            </h1>
-
-            <p class="hero-text">
-              Transform your brand's presence through strategic influencer marketing and social media excellence
-            </p>
-
-            <a href="#" class="btn btn-primary">Get Started Now</a>
-
+        <div class="section__container header__container">
+          <h2>
+            <a class="logo">Ve<span>Visible</span></a>
+          </h2>
+          <h1 data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;">Making Brands Visible<br> <span></span></h1>
+          <div class="header__btns" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 1s cubic-bezier(0.5, 0, 0, 1) 1.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 1.5s;">
+            <a href="###">
+            <button class="btn">Get In Touch</button>
+          </a>
+            
           </div>
-
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="720" height="673" alt="hero banner" class="w-100">
-          </figure>
-
-        </div>
       </section>
-
-
-      <!-- what we offer -->
-
-
-      <section class="we-offer">
-        <h1 class="h1 hero-title">Case Studies
-        </h1>
-        <div class="main-offer">
-            <div class="inner-offer">
-                <img src="./assets/images/case1.png" alt="">
-    
-                <h2 class="h1 hero-title">social media management</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officiis cum mollitia repellendus neque magni distinctio impedit, earum esse quae non voluptatem maiores nobis velit! Officiis non facilis impedit ea!</p>
-                <a href="#">Read more</a>
-           
-            </div>
-    
-            <div class="inner-offer">
-                <img src="./assets/images/case2.png" alt="">
-    
-                <h2 class="h1 hero-title">social media management</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officiis cum mollitia repellendus neque magni distinctio impedit, earum esse quae non voluptatem maiores nobis velit! Officiis non facilis impedit ea!</p>
-                <a href="#">Read more</a>
-           
-            </div>
-    
-            <div class="inner-offer">
-                <img src="./assets/images/case3.png" alt="">
-    
-                <h2 class="h1 hero-title">social media management</h2>
-                <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit. Obcaecati officiis cum mollitia repellendus neque magni distinctio impedit, earum esse quae non voluptatem maiores nobis velit! Officiis non facilis impedit ea!</p>
-                <a href="#">Read more</a>
-            
-                
-
-
-
-
-            </div>
-    
-            
-            </div>
-        </div>
-    </section>
-
-    <section class="more-sucess">
-      
-      <h1>
-        <a href="#"> Show More Success Stories -></a>
-      </h1> 
-      
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="section service" id="service" aria-label="service">
-        <div class="container">
-
-          <h2 class="h2 section-title">Our Services </h2>
-
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna.
+  
+      <section class="steps" id="about">
+        <div class="section__container steps__container">
+          <h2 class="section__header">
+            Recent <span>Clients</span>
+          </h2>
+          <p class="section__description">
+            At VeVisible, we ensure your brand gets the visibility it needs to succeed just like our recent Clients did.
           </p>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #13c4a1">
-                  <ion-icon name="chatbox"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Influencer Research</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #6610f2">
-                  <ion-icon name="desktop"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Audits
-                  </a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #ffb700">
-                  <ion-icon name="bulb"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Analytical Data</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #fc3549">
-                  <ion-icon name="phone-portrait"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Influencer Outreach</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #00d280">
-                  <ion-icon name="archive"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Negotiation</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #ff612f">
-                  <ion-icon name="build"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Content Briefing</a>
-                </h3>
-
-                <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
+          <div class="logos">
+            <div class="logos-slide" style="display: flex;">
+              <img src="./logos/3m.svg" />
+              <img src="./logos/barstool-store.svg" />
+              <img src="./logos/budweiser.svg" />
+              <img src="./logos/buzzfeed.svg" />
+              <img src="./logos/forbes.svg" />
+              <img src="./logos/macys.svg" />
+              <img src="./logos/menshealth.svg" />
+              <img src="./logos/mrbeast.svg" />
+            </div>
+          </div>
         </div>
       </section>
-
-<!-- 
-        - #Price
-      -->
-      <section class="Price">
-      <h1 class="h1 hero-title">PRICING PLAN
-      </h1>
-      <h1 class="h1 hero-title">The Best Solutions for Our Clients
-      </h1>
-      <div class="wrapper">
-        <div class="pricing-table gprice-single">
-          <div class="head">
-                 <h4 class="title">Basic</h4> 
-            </div>
-            <div class="content">
-                <div class="price">
-                    <h1>$19</h1>
-                </div>
-                <ul>
-                    <li>5 GB Ram</li>
-                    <li>40GB SSD Cloud Storage</li>
-                    <li>Month Subscription</li>
-                    <li>Responsive Framework</li>
-                    <li> <del>Monthly Billing Software</del> </li>
-                    <li> <del>1 Free Website</del></li>
-
-                </ul>
-                <div class="sign-up">
-                    <a href="#" class="btn bordered radius">Signup Now</a>
-                </div>
-            </div>
-        </div>
-            <div class="pricing-table gprice-single">
-                <div class="head">
-                    <h4 class="title">Standard</h4>
-                </div>
-                <div class="content">
-                    <div class="price">
-                        <h1>$29</h1>
-                    </div>
-                    <ul>
-                        <li>5 GB Ram</li>
-                        <li>40GB SSD Cloud Storage</li>
-                        <li>Month Subscription</li>
-                        <li>Responsive Framework</li>
-                        <li>Monthly Billing Software</li>
-                       <li>1 Free Website</li>
-            
-                    </ul>
-                    <div class="sign-up">
-                        <a href="#" class="btn bordered radius">Signup Now</a>
-                    </div>
-                </div>
-            </div>
-                <div class="pricing-table gprice-single">
-                    <div class="head">
-                        <h4 class="title">Premium</h4>
-                    </div>
-                    <div class="content">
-                        <div class="price">
-                            <h1>$39</h1>
-                        </div>
-                        <ul>
-                            <li>5 GB Ram</li>
-                            <li>40GB SSD Cloud Storage</li>
-                            <li>Month Subscription</li>
-                            <li>Responsive Framework</li>
-                            <li>Monthly Billing Software</li>
-                            <li>1 Free Website</li>
-                        </ul>
-                        <div class="sign-up">
-                            <a href="#" class="btn bordered radius">Signup Now</a>
-                        </div>
-                    </div>
-                </div>
-    </div>
 
       <!-- 
         - #PROJECT
       -->
 
+      <style>
+        .project-card {
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+      
+        .project-card video {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+      
+        .card-content-project {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: rgba(0, 0, 0, 0.6);
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+        }
+      
+        .card-title-project a {
+          color: #fff;
+          text-decoration: none;
+        }
+      </style>
+      
       <section class="section project" id="project" aria-label="project">
         <div class="container">
-
-          <h2 class="h2 section-title">Our Recent Projects</h2>
-
+      
+          <h2 class="section__header">
+            Success <span>Cases</span>
+          </h2>
+      
           <p class="section-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
+            dolore magna aliqua.
           </p>
-
+      
           <ul class="grid-list">
-
+      
             <li>
               <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-1.jpg" width="510" height="700" loading="lazy"
-                    alt="Designing a better cinema experience" class="img-cover">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="https://www.pulse-advertising.com/wp-content/themes/pulse/assets/videos/Beats_1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">SEO Optimization</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Designing a better cinema experience</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
+               
               </div>
             </li>
-
+      
             <li>
               <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-2.jpg" width="510" height="700" loading="lazy"
-                    alt="Building design process within teams" class="img-cover">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="https://www.pulse-advertising.com/wp-content/themes/pulse/assets/videos/Beats_1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Digital Marketing</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Building design process within teams</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
+                
               </div>
             </li>
-
+      
             <li>
               <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-3.jpg" width="510" height="700" loading="lazy"
-                    alt="How intercom brings play into their design process" class="img-cover">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="https://www.pulse-advertising.com/wp-content/themes/pulse/assets/videos/Beats_1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Keyword Targeting</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">How intercom brings play into their design process</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
+                
+              
               </div>
             </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-4.jpg" width="510" height="700" loading="lazy"
-                    alt="Stuck with to-do list, I created a new app for" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Email Marketing</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Stuck with to-do list, I created a new app for</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-5.jpg" width="510" height="700" loading="lazy"
-                    alt="Examples of different types of sprints" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Marketing & Reporting</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Examples of different types of sprints</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-6.jpg" width="510" height="700" loading="lazy"
-                    alt="Redesigning the New York times app" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <p class="card-subtitle">Development</p>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Redesigning the New York times app</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-primary">View Details</a>
-
-                </div>
-
-              </div>
-            </li>
-
           </ul>
-
         </div>
       </section>
-
-
-
+      
+      <h2 class="section__header">
+        <a href="###">
+          <button class="btn">See More</button>
+        </a>
+      </h2>
 
 
       <!-- 
@@ -577,8 +228,12 @@
         <div class="container">
 
           <div class="about-banner img-holder" style="--width: 720; --height: 960;">
-            <img src="./assets/images/about-banner.jpg" width="720" height="960" loading="lazy" alt="about banner"
-              class="img-cover">
+            <figure class="card-banner img-holder">
+            <video width="100%" height="700" autoplay loop muted playsinline>
+              <source src="https://www.pulse-advertising.com/wp-content/themes/pulse/assets/videos/Beats_1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </figure>
 
             <button class="play-btn" aria-label="Play video">
               <ion-icon name="play" aria-hidden="true"></ion-icon>
@@ -701,7 +356,7 @@
 
                 <div class="card-content">
 
-                  <time class="time" datetime="2022-06-16">Jan 25, 2025</time>
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">How to Become a Successful Entry Level UX Designer</a>
@@ -722,7 +377,7 @@
 
                 <div class="card-content">
 
-                  <time class="time" datetime="2022-06-16">Jan 25, 2025</time>
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">2022 Local SEO Success: The Year of Everywhere</a>
@@ -743,7 +398,7 @@
 
                 <div class="card-content">
 
-                  <time class="time" datetime="2022-06-16">Jan 25, 2025</time>
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">The Guide to Running a Client Discovery Process</a>
@@ -764,7 +419,7 @@
 
                 <div class="card-content">
 
-                  <time class="time" datetime="2022-06-16">Jan 25, 2025</time>
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">3 Ways to Get Client Approval for Scope Changes</a>
@@ -785,7 +440,7 @@
 
                 <div class="card-content">
 
-                  <time class="time" datetime="2022-06-16">Jan 25, 2025</time>
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
                   <h3 class="h3">
                     <a href="#" class="card-title">Top 21 Must-Read Blogs For Creative Agencies</a>
@@ -864,8 +519,8 @@
 
                   <h3 class="h3 card-title">Mail Here</h3>
 
-                  <a href="mailto:hello@luaz.com" class="card-link">vevisible@gmail.com</a>
-                  <a href="mailto:info@luaz.com" class="card-link">vevisibleinfo@gmail.com</a>
+                  <a href="mailto:hello@luaz.com" class="card-link">hello@luaz.com</a>
+                  <a href="mailto:info@luaz.com" class="card-link">info@luaz.com</a>
 
                 </div>
 
@@ -884,8 +539,8 @@
                   <h3 class="h3 card-title">Visit Here</h3>
 
                   <address class="card-address">
-                    27 Division St, Pakistan,<br>
-                    NA 10002, Lahore
+                    27 Division St, New York,<br>
+                    NY 10002, USA
                   </address>
 
                 </div>
@@ -905,7 +560,7 @@
                   <h3 class="h3 card-title">Call Here</h3>
 
                   <a href="tel:+1234567890" class="card-link">+123 456 7890</a>
-                  <a href="tel:+2414524526" class="card-link">+123 456 7890</a>
+                  <a href="tel:+2414524526" class="card-link">+241 452 4526</a>
 
                 </div>
 
@@ -932,7 +587,7 @@
     <div class="container">
 
       <p class="copyright">
-        &copy; All Rights Reserved © 2025 <a href="#" class="copyright-link"> VeVisible</a> Developed by <a href="#" class="copyright-link">CodeWithQamar</a>
+        &copy;All Rights Reserved © 2025 VeVisible Developed By  <a href="#" class="copyright-link"> CodesWithQamar</a>
       </p>
 
     </div>
@@ -964,7 +619,7 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="main.js"></script>
 </body>
 
 </html>
