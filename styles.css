@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #ee1809;
-  --primary-color-dark: #0c2eee;
+  --primary-color-dark: rgba(25, 223, 58, 0.5);
   --text-dark: #262626;
   --text-light: #737373;
   --extra-light: #e5e5e5;
@@ -402,57 +402,13 @@ body {
     color: #000000;
     text-align: center;
 }
-.card:hover i,
-.card:hover p{
-    color: #fff;
-}
+
 .card:hover h2{
     font-weight: 800;
     color: #000000;
     
 }
-.card:nth-child(1):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg.jpg');
-                                    background-size: cover;
-}
-.card:nth-child(2):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg2.jpg');
-                                    background-size: cover;
-}
-.card:nth-child(3):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg3.jpg');
-                                    background-size: cover;
-}
-.card:nth-child(4):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg4.jpg');
-                                    background-size: cover;
-}
-.card:nth-child(5):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg5.jpg');
-                                    background-size: cover;
-}
-.card:nth-child(6):hover{
-    background: linear-gradient(45deg,
-                                   rgba(225,28,8,0.8) 0% ,
-                                   rgba(225,0,82,0.8)100% ) ,
-                                    url('bg2.jpg');
-                                    background-size: cover;
-}
+
 @media(max-width:991px){
     .wrapper{
         padding: 25px;
@@ -470,7 +426,6 @@ body {
         margin: 10px auto;
     }
 }
-
 
 
 .offer__grid {
