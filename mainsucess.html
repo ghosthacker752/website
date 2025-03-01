@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeVisible</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Ve<span>Visible</span></a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Us</a>
+          </li>
+
+          <li>
+            <a href="price.html" class="navbar-link" data-nav-link>Pricing</a>
+          </li>
+
+         
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact </a>
+          </li>
+
+          
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+     
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <style>
+        .project-card {
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+      
+        .project-card video {
+          width: 100%;   
+          height: auto;
+          border-radius: 10px;
+        }
+      
+        .card-content-project {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: rgba(0, 0, 0, 0.6);
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+        }
+      
+        .card-title-project a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+       
+      </style>
+      
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+      
+          <h2 class="section__header">
+            Success <span>Cases</span>
+          </h2>
+      
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                
+                </figure>
+                <div class="card-content">
+                  
+                  <p class="card-subtitle">Success Case 01</p>
+                  <h3><a class="card-title-project">Klap</a></h3>
+                  <a href="sucesscase01.html" class="btn btn-primary">View Case</a>
+                </div>
+
+
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/main2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="/assets/videos/main3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                
+              
+              </div>
+            </li>
+
+            <li>
+                <div class="project-card">
+                  <figure class="card-banner img-holder">
+                    <video width="510" height="700" autoplay loop muted playsinline>
+                      <source src="/assets/videos/main3.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </figure>
+          </ul>
+        </div>
+      </section>
