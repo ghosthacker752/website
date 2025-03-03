@@ -7,7 +7,7 @@
   --text-light: #737373;
   --extra-light: #e5e5e5;
   --white: #ffffff;
-  --max-width: 1200px;
+  --max-width: 1000px;
   
 }
 
@@ -290,8 +290,8 @@ nav {
 }
 .wrapper{
     font-family: 'poppins',sans-serif;
+    padding: 80px;
     display: flex;
-    padding: 90px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
