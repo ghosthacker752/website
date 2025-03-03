@@ -20,21 +20,22 @@
    * colors
    */
 
-  --safety-orange: hsl(0, 0%, 0%);
-  --lavender-gray: hsl(230, 19%, 81%);
+ --safety-orange: hsl(0, 0%, 0%);
+  --lavender-gray: hsl(228, 100%, 98%);
   --persian-rose: hsl(0, 100%, 93%);
   --red-crayola: hsl(0, 0%, 0%);
   --eerie-black: hsl(240, 6%, 10%);
-  --light-gray: hsl(0, 0%, 80%);
+  --light-gray: hsl(0, 100%, 99%);
   --cultured-2: hsl(210, 60%, 98%);
   --platinum: hsl(0, 0%, 90%);
-  --gray-web: hsl(220, 5%, 49%);
+  --gray-web: hsl(220, 100%, 97%);
   --cultured: hsl(0, 0%, 93%);
   --black_10: hsla(0, 0%, 0%, 0.1);
   --black_5: hsla(0, 0%, 0%, 0.05);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 14%, 98%);
   --black: hsl(0, 0%, 0%);
+
 
   /**
    * gradient color
