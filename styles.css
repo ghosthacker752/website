@@ -4,8 +4,8 @@
   --primary-color:  #000000;
   --primary-color-dark: rgba(0, 0, 0, 0.5);
   --text-dark: #000000;
-  --text-light: #737373;
-  --extra-light: #e5e5e5;
+  --text-light: #000000;
+  --extra-light: #000000;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -50,18 +50,18 @@
 .btn {
   padding: 1rem 2rem;
   outline: none;
-  border: none;
+  border: 3px solid #000000;
   font-size: 2rem;
-  color: var(--white);
-  background-color: var(--primary-color);
+  color: var(--black);
+  background: transparent;
   border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: var(--primary-color-dark);
-  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+  background-color: var(--primary-color-white);
+  box-shadow: 2px 2px 10px rgba(255, 226, 226, 0.5);
 }
 
 .logo {
@@ -226,7 +226,7 @@ nav {
 }
 
 .header__btns a:hover span {
-  box-shadow: 2px 2px 10px rgba(5, 3, 1, 0.5);
+  box-shadow: white;
 }
 
 .header__container > img {
@@ -652,3 +652,7 @@ body {
     gap: 2rem;
   }
 }
+
+
+
+
