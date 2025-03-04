@@ -2,61 +2,262 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing table</title>
-    <link rel="stylesheet" href="price.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeVisible</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu&display=swap"
-        rel="stylesheet">
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="price.css" />
 </head>
 
-<body>
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
-        <h1>Choose your plan</h1>
-        <div class="price-row">
-            <div class="box">
-                <h2>Starter</h2>
-                <h1>19$ <span>/month</span></h1>
-                <ul>
-                    <li>1 Website</li>
-                    <li>10 GB Disk Space</li>
-                    <li>Free Email Address</li>
-                    <li>Basic Web Builder</li>
-                    <li>No SSL Certificate</li>
-                    <li>Limited Support</li>
-                </ul>
-                <div class="btn">Add to Cart</div>
-            </div>
-            <div class="box">
-                <h2>Advanced</h2>
-                <h1>22$ <span>/month</span></h1>
-                <ul>
-                    <li>1 Website</li>
-                    <li>10 GB Disk Space</li>
-                    <li>Free Email Address</li>
-                    <li>Basic Web Builder</li>
-                    <li>No SSL Certificate</li>
-                    <li>Limited Support</li>
-                </ul>
-                <div class="btn">Add to Cart</div>
-            </div>
-            <div class="box">
-                <h2>Premium</h2>
-                <h1>25$ <span>/month</span></h1>
-                <ul>
-                    <li>1 Website</li>
-                    <li>10 GB Disk Space</li>
-                    <li>Free Email Address</li>
-                    <li>Basic Web Builder</li>
-                    <li>No SSL Certificate</li>
-                    <li>Limited Support</li>
-                </ul>
-                <div class="btn">Add to Cart</div>
-            </div>
-        </div>
+
+      <a href="#" class="logo">Ve<span>Visible</span></a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Us</a>
+          </li>
+
+          <li>
+            <a href="price.html" class="navbar-link" data-nav-link>Pricing</a>
+          </li>
+
+         
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact </a>
+          </li>
+
+          
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+
+
+<body>
+    <div class="wrapper">
+      
+             <div class="content-box">
+                <div class="card">
+                   
+                    <h2>UGC content</h2>
+                  <p>Starting at $50 a video* </p>
+
+                </div>
+                <div class="card">
+                    
+                    <h2>Influencer Discovery <span>& Outreach</span> </h2>
+                   <p>Starting at $50 for 30 Influencers*</p>
+                         
+                </div>
+                <div class="card">
+                   
+
+                    <h2>Influencer Managment</h2>
+                <p>Starting at 5% of the Campign'S budget or flat fee*</p>
+                         
+                </div>
+                <div class="card">
+                   
+                    <h2>Social Media Consulting</h2>
+                    <p> Starting at $30 an hour*</p>
+                         
+                </div>
+                <div class="card">
+                  
+                    <h2>Social Media Managment</h2>
+                    <p> Starting at $250 a month*</p>
+        
+                    </div>
+
+
+
+                <style>
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+}
+.wrapper h1{
+    font-size: 3em;
+
+    margin: 25px;
+}
+.content-box{
+    display: flex;
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.Touch{
+    min-height: 200px;
+    border: 3px solid #000000;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+}
+.Touch i{
+    margin: 20px;
+    color: #581ed6;
+}
+.Touch h2{
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+@media(max-width:991px){
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+.btn {
+  padding: 1rem 2rem;
+  outline: none;
+  border: 3px solid #fff9f9;
+  font-size: 2rem;
+  color: var(white);
+  background: transparent;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-white);
+  box-shadow: 2px 2px 10px rgba(255, 241, 241, 0.5);
+}
+
+.btn {
+  max-width: max-content;
+  color: var(--white-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  padding: 10px 30px;
+  border-radius: var(--radius-5);
+  transition: var(--transition-1);
+}
+
+
+
+
+
+                </style>
+
+
+
+
+
+
+
+
+                    <div class="Touch">
+                    <h2>Make your <br>Brand Visible!</br></h2>
+                    <a href="###">
+                        <button class="btn">Get In Touch</button>
+                      </a>
+                         
+                </div>
+             </div>
     </div>
 </body>
-
 </html>
