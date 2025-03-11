@@ -376,17 +376,27 @@ body {
     
 }
 .card{
-    min-height: 220px;
-    width: 320px;
-    padding: 30px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #fff;
-    margin: 10px 4px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+  min-height: 220px;
+  width: 320px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  background: #fff;
+  margin: 10px 4px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+}
+.icon {
+width: 80px;
+height: 80px;
+margin-bottom: 15px;
+}
+
+.icon img {
+width: 100%;
+height: auto;
 }
 .card i{
     margin: 20px;
@@ -408,6 +418,13 @@ body {
     color: #000000;
     
 }
+
+
+
+
+
+
+
 
 @media(max-width:991px){
     .wrapper{
