@@ -38,38 +38,36 @@
     </section>
   
     
-  
-  
     <section id="published-content">
       <h2>Published Content</h2>
       <p>Some content organically outperformed others. Below are a few examples:</p>
       <div class="video-container">
         <div class="video-item">
-            <video controls autoplay muted loop>      
-                <source src="./assets/videos/case2video1.mp4" type="video/mp4">
-                <a href="index.html" target="_blank">Video 1</a>
-                            </video> 
-             
-            
-              
-  
+          <div class="video-wrapper" data-link="https://www.instagram.com/reel/DGGfKBnvIU6/">
+            <video controls autoplay muted loop>
+              <source src="./assets/videos/case2video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
         <div class="video-item">
+          <div class="video-wrapper" data-link="https://www.instagram.com/reel/C7qqWrQKu7B/">
             <video controls autoplay muted loop>
-                <source src="./assets/videos/case2video2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+              <source src="./assets/videos/case2video2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
-           
+          </div>
         </div>
         <div class="video-item">
+          <div class="video-wrapper" data-link="https://www.tiktok.com/@estherelsewhere/video/7446865895936232746">
             <video controls autoplay muted loop>
-                <source src="./assets/videos/case2video3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+              <source src="./assets/videos/case2video3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
-           
+          </div>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
   
   
   <section id="content-strategy">
@@ -87,3 +85,16 @@
     </footer>
   </body>
   </html>
+
+  <script>
+
+    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+      wrapper.addEventListener('click', () => {
+        const url = wrapper.getAttribute('data-link');
+        if (url) {
+          window.location.href = url;
+        }
+      });
+    });
+  </script>
+ 
