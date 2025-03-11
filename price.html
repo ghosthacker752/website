@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.png" type="image/png+xml">
 
   <!-- 
     - custom css link
@@ -84,45 +84,77 @@
   <main>
     <article>
 
+      <!-- 
+        - #HERO
+      -->
+
+    
+
+      <body>
+        <div class="wrapper">
+          <h2 class="section__header">
+            
+          </h2>
+       
 
 
 
 
-<body>
-    <div class="wrapper">
-      
-             <div class="content-box">
-                <div class="card">
-                   
-                    <h2>UGC content</h2>
-                  <p>Starting at $50 a video* </p>
 
-                </div>
-                <div class="card">
-                    
-                    <h2>Influencer Discovery <span>& Outreach</span> </h2>
-                   <p>Starting at $50 for 30 Influencers*</p>
-                         
-                </div>
-                <div class="card">
-                   
 
-                    <h2>Influencer Managment</h2>
-                <p>Starting at 5% of the Campign'S budget or flat fee*</p>
-                         
-                </div>
-                <div class="card">
-                   
-                    <h2>Social Media Consulting</h2>
-                    <p> Starting at $30 an hour*</p>
-                         
-                </div>
-                <div class="card">
-                  
-                    <h2>Social Media Managment</h2>
-                    <p> Starting at $250 a month*</p>
+
         
-                    </div>
+        <div class="content-box">
+             <div class="card">
+                 <i class="bx bx-bar-chart-alt bx-md"></i>
+                 
+                 <h2>UGC content</h2>
+                 <p>
+                  Starting at $50 a video*
+             </div>
+
+             <div class="card">
+               <i class="bx bx-laptop bx-md"></i>
+               
+               <h2>Influencer Discovery <span>& Outreach</span></h2>
+               <p>
+                Starting at $50 for 30 Influencers*
+               </p>
+           </div>
+
+           <div class="card">
+               <i class="bx bx-line-chart bx-md"></i>
+             
+               <h2>Influencer Managment</h2>
+               <p>
+                Starting at 5% of the Campign'S budget or flat fee*
+               </p>
+           </div>         
+           <div class="content-box">
+            <div class="card">
+                <i class="bx bx-bar-chart-alt bx-md"></i>
+               
+                <h2>Social Media Consulting</h2>
+                <p>
+                  Starting at $30 an hour*
+                </p>
+            </div>
+
+            <div class="card">
+              <i class="bx bx-laptop bx-md"></i>
+              
+              <h2>Social Media Managment</h2>
+              <p>
+                Starting at $250 a month*
+              </p>
+          </div>
+
+         
+
+
+
+
+
 
 
 
@@ -259,5 +291,51 @@ body {
                 </div>
              </div>
     </div>
+
+
+      
+          </div>
+    </div>
+</body>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy;All Rights Reserved © 2025 VeVisible Developed By  <a href="#" class="copyright-link"> CodesWithQamar</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
 </body>
 </html>
+<script>
+  const navToggler = document.querySelector('[data-nav-toggler]');
+  const navbarList = document.querySelector('.navbar-list');
+  navToggler.addEventListener('click', () => {
+    navbarList.classList.toggle('open');
+  });
+</script>
