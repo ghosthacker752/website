@@ -40,27 +40,32 @@
     <p>Some content organically outperformed others. Below are a few examples:</p>
     <div class="video-container">
       <div class="video-item">
+        <div class="video-wrapper" data-link="https://www.tiktok.com/@ugcwithemmap/video/7397517324892327200">
           <video controls autoplay muted loop>
-              <source src="./assets/videos/1.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video> 
-           
-          
-            
-
+            <source src="./assets/videos/1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
       <div class="video-item">
+        <div class="video-wrapper" data-link="https://www.instagram.com/p/DCrpdqQg9AD/">
           <video controls autoplay muted loop>
-              <source src="./assets/videos/2.mp4" type="video/mp4">
-              Your browser does not support the video tag.
+            <source src="./assets/videos/case2video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
           </video>
-         
+        </div>
       </div>
       <div class="video-item">
+        <div class="video-wrapper" data-link="https://www.instagram.com/reel/C9xQRUOShTu/?igsh=MTRqaXNpMGFkbzdndg%3D%3D">
           <video controls autoplay muted loop>
-              <source src="./assets/videos/3.mp4" type="video/mp4">
-              Your browser does not support the video tag.
+            <source src="./assets/videos/case2video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
           </video>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
          
       </div>
   </div>
@@ -114,5 +119,20 @@
   <footer>
     <p>&copy; All Rights Reserved © 2025 VeVisible Developed By CodesWithQamar</p>
   </footer>
+</body>
+</html>
+
+<script>
+
+  
+  document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+    wrapper.addEventListener('click', () => {
+      const url = wrapper.getAttribute('data-link');
+      if (url) {
+        window.location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>
