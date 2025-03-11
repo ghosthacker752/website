@@ -223,6 +223,8 @@
           <ul class="grid-list">
       
             <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase01.html">
               <div class="project-card">
                 <figure class="card-banner img-holder">
                   <video width="510" height="700" autoplay loop muted playsinline>
@@ -234,14 +236,32 @@
                   
                   <p class="card-subtitle">Success Case 01</p>
                   <h3><a  class="card-title-project">Klap</a></h3>
-                  <a href="sucesscase01.html" class="btn btn-primary">View Case</a>
-                </div>
+                 
+
+                <script>
+
+  
+                  document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                    wrapper.addEventListener('click', () => {
+                      const url = wrapper.getAttribute('data-link');
+                      if (url) {
+                        window.location.href = url;
+                      }
+                    });
+                  });
+                </script>                  
+
+
+
+
 
 
               </div>
             </li>
       
             <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase02.html">
               <div class="project-card">
                 <figure class="card-banner img-holder">
                   <video width="510" height="700" autoplay loop muted playsinline>
@@ -253,13 +273,26 @@
                   
                   <p class="card-subtitle">Success Case 02</p>
                   <h3><a  class="card-title-project">Airial</a></h3>
-                  <a href="sucesscase02.html" class="btn btn-primary">View Case</a>
-                </div>
-                
+                 
+                  <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>                  
+  
               </div>
             </li>
       
             <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase03.html">
               <div class="project-card">
                 <figure class="card-banner img-holder">
                   <video width="510" height="700" autoplay loop muted playsinline>
@@ -271,9 +304,20 @@
                   
                   <p class="card-subtitle">Success Case 03</p>
                   <h3><a  class="card-title-project">Beans</a></h3>
-                  <a href="sucesscase03.html" class="btn btn-primary">View Case</a>
-                </div>
-                
+                 
+                  <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>                  
+  
               
               </div>
             </li>
