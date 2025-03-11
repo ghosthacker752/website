@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.png" type="image/png+xml">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -99,7 +99,7 @@
         }
       
         .project-card video {
-          width: 100%;   
+          width: 100%;
           height: auto;
           border-radius: 10px;
         }
@@ -118,8 +118,6 @@
           color: #fff;
           text-decoration: none;
         }
-
-       
       </style>
       
       <section class="section project" id="project" aria-label="project">
@@ -137,45 +135,45 @@
           <ul class="grid-list">
       
             <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase01.html">
               <div class="project-card">
                 <figure class="card-banner img-holder">
                   <video width="510" height="700" autoplay loop muted playsinline>
                     <source src="./assets/videos/1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
-                
                 </figure>
                 <div class="card-content">
                   
                   <p class="card-subtitle">Success Case 01</p>
-                  <h3><a class="card-title-project">Klap</a></h3>
-                  <a href="sucesscase01.html" class="btn btn-primary">View Case</a>
-                </div>
+                  <h3><a  class="card-title-project">Klap</a></h3>
+                 
+
+                <script>
+
+  
+                  document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                    wrapper.addEventListener('click', () => {
+                      const url = wrapper.getAttribute('data-link');
+                      if (url) {
+                        window.location.href = url;
+                      }
+                    });
+                  });
+                </script>                  
+
+
+
+
 
 
               </div>
             </li>
       
             <li>
-              <div class="project-card">
-                <figure class="card-banner img-holder">
-                  <video width="510" height="700" autoplay loop muted playsinline>
-                    <source src="./assets/videos/main2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </figure>
-                  <div class="card-content">
-                  
-                  <p class="card-subtitle">Success Case 02</p>
-                  <h3><a class="card-title-project">Airial</a></h3>
-                  <a href="sucesscase02.html" class="btn btn-primary">View Case</a>
-                </div>
-
-                
-              </div>
-            </li>
-      
-            <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase02.html">
               <div class="project-card">
                 <figure class="card-banner img-holder">
                   <video width="510" height="700" autoplay loop muted playsinline>
@@ -183,31 +181,95 @@
                     Your browser does not support the video tag.
                   </video>
                 </figure>
-                 <div class="card-content">
+                <div class="card-content">
+                  
+                  <p class="card-subtitle">Success Case 02</p>
+                  <h3><a  class="card-title-project">Airial</a></h3>
+                 
+                  <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>                  
+  
+              </div>
+            </li>
+      
+            <li>
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase03.html">
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="./assets/videos/main2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                <div class="card-content">
                   
                   <p class="card-subtitle">Success Case 03</p>
-                  <h3><a class="card-title-project">Beans</a></h3>
-                  <a href="sucesscase03.html" class="btn btn-primary">View Case</a>
-                </div>
+                  <h3><a  class="card-title-project">Beans</a></h3>
+                 
+                  <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>                  
+  
               
               </div>
             </li>
 
             <li>
-                <div class="project-card">
-                  <figure class="card-banner img-holder">
-                    <video width="510" height="700" autoplay loop muted playsinline>
-                      <source src="./assets/videos/main3.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </figure>
-                     <div class="card-content">
+              <div class="video-item">
+                <div class="video-wrapper" data-link="Successcase03.html">
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <video width="510" height="700" autoplay loop muted playsinline>
+                    <source src="./assets/videos/main2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </figure>
+                <div class="card-content">
                   
-                  <p class="card-subtitle">Success Case 04</p>
-                  <h3><a class="card-title-project">Sofatutor</a></h3>
-                  <a href="sucesscase04.html" class="btn btn-primary">View Case</a>
-                </div>
-          
+                  <p class="card-subtitle">Success Case 03</p>
+                  <h3><a  class="card-title-project">Beans</a></h3>
+                 
+                  <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>                  
+  
+              
+              </div>
+
+
+
+
           </ul>
+
         </div>
       </section>
+      
