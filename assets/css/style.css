@@ -28,8 +28,8 @@
   --light-gray: hsl(0, 100%, 99%);
   --cultured-2: hsl(210, 60%, 98%);
   --platinum: hsl(0, 0%, 90%);
-   --gray-web: hsl(216, 3%, 38%);
-  --cultured: hsl(0, 0%, 93%);
+  --gray-web: hsl(216, 3%, 38%);
+  --cultured: hsl(0, 100%, 99%);
   --black_10: hsla(0, 0%, 0%, 0.1);
   --black_5: hsla(0, 0%, 0%, 0.05);
   --white-1: hsl(0, 0%, 100%);
@@ -632,7 +632,7 @@ textarea.input-field {
 .checkbox {
   width: max-content;
   margin-block-start: 5px;
-  accent-color: black;
+  accent-color: #000000;
 }
 
 .label-link {
@@ -664,7 +664,7 @@ textarea.input-field {
   background-color: var(--white-1);
   padding: 20px;
   border-radius: var(--radius-2);
-  box-shadow: var(--shadow-1);
+  box-shadow:var(--shadow-1);
   display: flex;
   align-items: flex-start;
   gap: 15px;
@@ -680,7 +680,7 @@ textarea.input-field {
 }
 
 .contact-card:is(:hover, :focus) .card-icon {
-  background-color: black;
+  background-color:#88A5BC;
   color: var(--white-1);
 }
 
