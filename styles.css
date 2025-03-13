@@ -406,11 +406,11 @@ height: auto;
     margin-bottom: 12px;
     font-weight: 800;
     color: #000000;
-    text-align: center;
+    text-align: left;
 }
 .card p{
     color: #000000;
-    text-align: center;
+    text-align: left;
 }
 
 .card:hover h2{
