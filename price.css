@@ -370,7 +370,7 @@ body {
     background: #fafafa;
 }
 .wrapper h1{
-  
+    padding:10px;
     font-size: 3em;
     color: #000000;
     margin: 25px;
