@@ -51,6 +51,22 @@
             <source src="./assets/videos/1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+       <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>  
+        
+        
+        
+        
         </div>
       </div>
       <div class="video-item">
@@ -58,8 +74,23 @@
           <video controls autoplay muted loop>
             <source src="./assets/videos/case2video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
-          </video>
-        </div>
+        </video>
+         <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>  
+        
+        
+        
+        </div>  
       </div>
       <div class="video-item">
         <div class="video-wrapper" data-link="https://www.instagram.com/reel/C9xQRUOShTu/?igsh=MTRqaXNpMGFkbzdndg%3D%3D">
@@ -67,6 +98,25 @@
             <source src="./assets/videos/case2video2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+       
+         <script>
+
+  
+                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                      wrapper.addEventListener('click', () => {
+                        const url = wrapper.getAttribute('data-link');
+                        if (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                  </script>  
+        
+        
+        
+        
+        
+        
         </div>
       </div>
     </div>
@@ -128,17 +178,3 @@
 </body>
 </html>
 
-<script>
-
-  
-  document.querySelectorAll('.video-wrapper').forEach(wrapper => {
-    wrapper.addEventListener('click', () => {
-      const url = wrapper.getAttribute('data-link');
-      if (url) {
-        window.location.href = url;
-      }
-    });
-  });
-</script>
-</body>
-</html>
