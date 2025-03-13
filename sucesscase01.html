@@ -40,7 +40,152 @@
 
   
 
+  <style>
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    .project-card video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  
+    .card-content-project {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .card-title-project a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+  
+  <section class="section project" id="project" aria-label="project">
+    <div class="container">
+  
+      <h2 class="section__header">
+        Success <span>Cases</span>
+      </h2>
+  
+      <p class="section-text">
+        Proven campaigns, visible results.
+      </p>
+  
+      <ul class="grid-list">
+  
+        <li>
+          <div class="video-item">
+            <div class="video-wrapper" data-link="./sucesscase01.html">
+          <div class="project-card">
+            <figure class="card-banner img-holder">
+              <video width="510" height="700" autoplay loop muted playsinline>
+                <source src="./assets/videos/1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
+            <div class="card-content">
+              
+              <p class="card-subtitle">Success Case 01</p>
+              <h3><a  class="card-title-project">Klap</a></h3>
+             
 
+            <script>
+
+
+              document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                wrapper.addEventListener('click', () => {
+                  const url = wrapper.getAttribute('data-link');
+                  if (url) {
+                    window.location.href = url;
+                  }
+                });
+              });
+            </script>                  
+
+
+
+
+
+
+          </div>
+        </li>
+  
+        <li>
+          <div class="video-item">
+            <div class="video-wrapper" data-link="./sucesscase02.html">
+          <div class="project-card">
+            <figure class="card-banner img-holder">
+              <video width="510" height="700" autoplay loop muted playsinline>
+                <source src="./assets/videos/main3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
+            <div class="card-content">
+              
+              <p class="card-subtitle">Success Case 02</p>
+              <h3><a  class="card-title-project">Airial</a></h3>
+             
+              <script>
+
+
+                document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                  wrapper.addEventListener('click', () => {
+                    const url = wrapper.getAttribute('data-link');
+                    if (url) {
+                      window.location.href = url;
+                    }
+                  });
+                });
+              </script>                  
+
+          </div>
+        </li>
+  
+        <li>
+          <div class="video-item">
+            <div class="video-wrapper" data-link="./sucesscase03.html">
+          <div class="project-card">
+            <figure class="card-banner img-holder">
+              <video width="510" height="700" autoplay loop muted playsinline>
+                <source src="./assets/videos/main2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
+            <div class="card-content">
+              
+              <p class="card-subtitle">Success Case 03</p>
+              <h3><a  class="card-title-project">Beans</a></h3>
+             
+              <script>
+
+
+                document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+                  wrapper.addEventListener('click', () => {
+                    const url = wrapper.getAttribute('data-link');
+                    if (url) {
+                      window.location.href = url;
+                    }
+                  });
+                });
+              </script>                  
+
+          
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
   <section id="published-content">
     <h2>Published Content</h2>
     <p>Some content organically outperformed others. Below are a few examples:</p>
@@ -51,25 +196,23 @@
             <source src="./assets/videos/1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-       <script>
+
+          <script>
 
   
-                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
-                      wrapper.addEventListener('click', () => {
-                        const url = wrapper.getAttribute('data-link');
-                        if (url) {
-                          window.location.href = url;
-                        }
-                         if (url) {
-                          phone.location.href = url;
-                        }
-                      });
-                    });
-                  </script>  
-        
-        
-        
-        
+            document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+              wrapper.addEventListener('click', () => {
+                const url = wrapper.getAttribute('data-link');
+                if (url) {
+                  window.location.href = url;
+                }
+              });
+            });
+          </script>   
+
+
+
+
         </div>
       </div>
       <div class="video-item">
@@ -77,23 +220,25 @@
           <video controls autoplay muted loop>
             <source src="./assets/videos/case2video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
-         <script>
+          </video>
+
+          <script>
 
   
-                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
-                      wrapper.addEventListener('click', () => {
-                        const url = wrapper.getAttribute('data-link');
-                        if (url) {
-                          window.location.href = url;
-                        }
-                      });
-                    });
-                  </script>  
-        
-        
-        
-        </div>  
+            document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+              wrapper.addEventListener('click', () => {
+                const url = wrapper.getAttribute('data-link');
+                if (url) {
+                  window.location.href = url;
+                }
+              });
+            });
+          </script>   
+
+
+
+
+        </div>
       </div>
       <div class="video-item">
         <div class="video-wrapper" data-link="https://www.instagram.com/reel/C9xQRUOShTu/?igsh=MTRqaXNpMGFkbzdndg%3D%3D">
@@ -101,25 +246,24 @@
             <source src="./assets/videos/case2video2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-       
-         <script>
+
+
+          <script>
 
   
-                    document.querySelectorAll('.video-wrapper').forEach(wrapper => {
-                      wrapper.addEventListener('click', () => {
-                        const url = wrapper.getAttribute('data-link');
-                        if (url) {
-                          window.location.href = url;
-                        }
-                      });
-                    });
-                  </script>  
-        
-        
-        
-        
-        
-        
+            document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+              wrapper.addEventListener('click', () => {
+                const url = wrapper.getAttribute('data-link');
+                if (url) {
+                  window.location.href = url;
+                }
+              });
+            });
+          </script>   
+
+
+
+
         </div>
       </div>
     </div>
