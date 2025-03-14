@@ -717,7 +717,7 @@ footer {
 /* imgo */
 .imgo img {
   width: 150px; /* Adjust as needed */
-  height: 150px;
+  height: auto;
   margin-bottom: 20px; /* Space below the logo */
 }
 
