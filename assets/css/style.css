@@ -714,12 +714,6 @@ footer {
   text-align: left; /* Align everything to the left */
 }
 
-/* imgo */
-.imgo img {
-  width: 100px; /* Adjust as needed */
-  height: 100px;
-  margin-bottom: 20px; /* Space below the logo */
-}
 
 .info-title {
   font-size: 18px;
