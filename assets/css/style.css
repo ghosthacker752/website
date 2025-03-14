@@ -700,8 +700,6 @@ textarea.input-field {
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
-
 /* General Footer Styling */
 footer {
   background-color: #88a5bc; /* Dark background */
@@ -716,8 +714,8 @@ footer {
   text-align: left; /* Align everything to the left */
 }
 
-/* Logo */
-.logo img {
+/* imgo */
+.imgo img {
   width: 150px; /* Adjust as needed */
   height: auto;
   margin-bottom: 20px; /* Space below the logo */
@@ -737,21 +735,7 @@ footer {
   margin-bottom: 20px; /* Space below the info section */
 }
 
-.instagram-mention {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #333;
-}
 
-.instagram-mention a {
-  color: #E1306C;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.instagram-mention a:hover {
-  text-decoration: underline;
-}
 
 
 .instagram-mention {
@@ -813,6 +797,9 @@ footer {
   font-weight: var(--fw-600);
   display: inline-block;
 }
+
+
+
 
 
 
