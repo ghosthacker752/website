@@ -701,21 +701,119 @@ textarea.input-field {
   #FOOTER
 \*-----------------------------------*/
 
-.footer {
-  background-color: var(--white-2);
-  padding-block: 20px;
+
+/* General Footer Styling */
+footer {
+  background-color: #88a5bc; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: left; /* Align everything to the left */
+}
+
+/* Logo */
+.logo img {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+.info-title {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below the title */
+}
+
+
+
+/* Information Section */
+.info-section {
+  margin-bottom: 20px; /* Space below the info section */
+}
+
+.instagram-mention {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.instagram-mention a {
+  color: #E1306C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.instagram-mention a:hover {
+  text-decoration: underline;
+}
+
+
+.instagram-mention {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.instagram-mention a {
+  color: #E1306C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.instagram-mention a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px; /* Space between links */
+}
+
+.footer-links a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Social Media Section */
+.social-media {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.social-media img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
 }
 
 .copyright {
+  padding: 0px;
   font-size: var(--fs-6);
+  color: #000;
   text-align: center;
 }
 
 .copyright-link {
-  color: var(--red-crayola);
-  font-weight: var(--fw-500);
+  color: black;
+  font-weight: var(--fw-600);
   display: inline-block;
 }
+
 
 
 
