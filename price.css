@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+   font-family:  "Montserrat", sans-serif;
   --primary-color:  #000000;
   --primary-color-dark: rgba(0, 0, 0, 0.5);
   --text-dark: #000000;
   --text-light: #000000;
-  --extra-light: #000000;
+  --extra-light: #88A5BC;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -23,6 +24,7 @@
 }
 
 .section__header {
+  font-family:  "Montserrat", sans-serif;
   max-width: 900px;
   margin-inline: auto;
   margin-bottom: 1rem;
@@ -40,9 +42,10 @@
 }
 
 .section__description {
+  font-family:  "Montserrat", sans-serif;
   max-width: 600px;
   margin-inline: auto;
-  color: var(--text-light);
+  color: #555;
   line-height: 1.75rem;
   text-align: center;
   margin-bottom: 10px;
@@ -61,7 +64,7 @@
 
 .btn:hover {
   background-color: var(--primary-color-white);
-  box-shadow: 2px 2px 10px rgba(255, 226, 226, 0.5);
+  box-shadow: 2px 2px 10px #88A5BC;
 }
 
 .logo {
@@ -226,7 +229,7 @@ nav {
 }
 
 .header__btns a:hover span {
-  box-shadow: white;
+  box-shadow: #ffffff;
 }
 
 .header__container > img {
@@ -276,9 +279,6 @@ nav {
 
 
 
-
-
-  
 
 
 * {
@@ -349,30 +349,30 @@ body {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"');
 
 
 *{
     margin: 0;
-    padding: 1000;
+    padding: 0;
     box-sizing: border-box;
 }
- 
 .wrapper{
-    font-family: 'poppins',sans-serif;
-    display: flex;
+    font-family: "Montserrat", sans-serif;
     padding: 70px;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #fafafa;
 }
 .wrapper h1{
-  
     font-size: 3em;
     color: #000000;
     margin: 25px;
+}
+.wrapper h1 p{
+  font-size: large;
 }
 .content-box{
     display: flex;
@@ -383,32 +383,23 @@ body {
     
 }
 .card{
-    min-height: 220px;
-    border: 3px solid #000000;
-    width: 320px;
-    padding: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    flex-direction: column;
-    background: #fff;
-    margin: 10px 4px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
-}
-.icon {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 15px;
+  min-height: 220px;
+  border: 3px solid #000000;
+  width: 320px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: #fff;
+  margin: 10px 4px;
+  box-shadow: 0px 15px 25px #88A5BC;
 }
 
-.icon img {
-  width: 100%;
-  height: auto;
-}
 .card i{
-    margin: 2px;
-    color: #070403;
+    margin: 5px;
+    color: #000000;
 }
 .card h2{
     margin-bottom: 12px;
@@ -417,6 +408,7 @@ body {
     text-align: center;
 }
 .card p{
+   font-weight: 500;
     color: #000000;
     text-align: center;
 }
@@ -429,50 +421,41 @@ body {
 
 
 .Touch {
-  min-height: 200px;
-  border: 3px solid #000;
-  width: 320px;
-  padding: 30px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #000;
-  margin: 10px 4px;
-  box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-  text-align: center;
-}
-.Touch h2 {
-  color: #fff;
-  margin-bottom: 12px;
-  font-weight: 800;
-}
-.btn {
-  padding: 1rem 2rem;
-  outline: none;
-  border: 3px solid #fff9f9;
-  font-size: 2rem;
-  background: transparent;
-  border-radius: 5px;
-  transition: 0.3s;
-  cursor: pointer;
-  color: #fff;
-}
-.btn:hover {
-  background-color: rgba(0,0,0,0.7);
-  box-shadow: 2px 2px 10px rgba(255,241,241,0.5);
-}
-@media (max-width: 991px) {
-  .content-box {
-    flex-direction: column;
-    width: 100%;
-  }
-  .card {
-    min-width: 300px;
-    margin: 10px auto;
-  }
-}
+   min-height: 200px;
+   border: 3px solid #000;
+   width: 320px;
+   padding: 30px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #000;
+   margin: 10px 4px;
+   box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+   text-align: center;
+ }
+ .Touch h2 {
+   color: #fff;
+   margin-bottom: 12px;
+   font-weight: 800;
+ }
+ .btn {
+   padding: 1rem 2rem;
+   outline: none;
+   border: 3px solid #fff9f9;
+   font-size: 2rem;
+   background: transparent;
+   border-radius: 5px;
+   transition: 0.3s;
+   cursor: pointer;
+   color: #fff;
+ }
+ .btn:hover {
+   background-color: rgba(0,0,0,0.7);
+   box-shadow: 2px 2px 10px rgba(255,241,241,0.5);
+ }
+
 
 
 
@@ -721,7 +704,6 @@ body {
     gap: 2rem;
   }
 }
-
 
 
 
